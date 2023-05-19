@@ -16,6 +16,7 @@ import { CommonModule } from "@angular/common";
   ],
   imports:[
     CommonModule //para que funcione el ngif de los botones
+
   ]
 })
 export class HeroesModule{
