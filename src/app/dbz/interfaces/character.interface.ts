@@ -1,7 +1,7 @@
 
 
 export interface Character{
-  id?: String;
-  name: String;
+  id?: string;
+  name: string;
   power: number;
 }

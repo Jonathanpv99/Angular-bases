@@ -7,14 +7,14 @@ import { Component } from '@angular/core';
 })
 export class HeroComponent {
 
-  public name: String = 'ironman';
+  public name: string = 'ironman';
   public age: number = 45;
 
-  get capitalizedNmae(): String {
+  get capitalizedNmae(): string {
     return this.name.toUpperCase();
   }
 
-  getHeroDesciption(): String{
+  getHeroDesciption(): string{
     return `${ this.name } - ${ this.age }`;
   }
 
